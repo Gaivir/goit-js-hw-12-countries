@@ -2,14 +2,70 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+.container {
+  padding: 30px;
+}
+
+.card {
+  margin: auto;
+  width: 800px;
+  padding: 30px;
+  border-radius: 5%;
+  background-color: darkgray;
+  border: 4px solid black;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.information {
+  display: inline-flex;
+  margin: auto;
+}
+
+.card-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.img {
+  display: block;
+  height: auto;
+}
+
+.info-block {
+  margin-left: 30px;
+  padding: 10px;
+}
+
+.input-search {
+  font-size: 25px;
+}
+
+.countries-list {
+  margin-top: 50px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.country-list-item {
+  margin-bottom: 20px;
+}
+
+.card-img {
+  display: block;
+  padding-left: 100px;
 }
